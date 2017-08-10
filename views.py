@@ -4,7 +4,7 @@ from models import UserModel, SessionToken, PostModel, LikeModel, CommentModel, 
 from django.contrib.auth.hashers import make_password, check_password
 from datetime import timedelta
 from django.utils import timezone
-from instaclone.settings import BASE_DIR
+from instaClone.settings import BASE_DIR
 
 from imgurpython import ImgurClient
 
